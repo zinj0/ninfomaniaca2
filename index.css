@@ -1,0 +1,399 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgba(223, 217, 192, 0.603);
+    cursor: url('cursor.png'), auto;
+}
+body:active {
+    cursor: url('cursor2.png'), auto;
+}
+
+#estrela {
+    width: 30vw;
+    position: absolute;
+    top: 4vh;
+    left: 48vw;
+}
+
+/* #mklivro:hover ~ #estrela {
+    -webkit-animation: rotating 10s linear infinite;
+    -moz-animation: rotating 10s linear infinite;
+    -ms-animation: rotating 10s linear infinite;
+    -o-animation: rotating 10s linear infinite;
+    animation: rotating 10s linear infinite;
+} */
+
+#credito {
+    position: fixed;
+    font-size: 1.5vmin;
+    transform: rotate(90deg);
+    left: 92vw;
+    top: 80vh;
+    width: 30vh;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: lightcoral;
+  }
+  
+  ::selection {
+    background: lightcoral;
+  }
+
+h1, h3, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 3.4vw;
+}
+
+#mklivro {
+    width: 37.5vmax;
+    height: auto;
+    position: absolute;
+    left: 57vw;
+    z-index: 2;
+}
+
+#perfil {
+    width: 15vmax;
+    height: auto;
+    z-index: 2;
+    border-radius: 50%;
+    position: relative;
+}
+
+.boxInfos {
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    width: 35vw;
+    height: 30vw;
+    left: 18vw;
+    top: 0;
+
+    padding-top: 6.6vmin;
+
+    flex-direction: column;
+    align-items: center;
+    flex-direction: center;
+    
+}
+
+.infos {
+    width: 32vw;
+    position: relative;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.3vmax;
+    text-indent: 3rem;
+    
+    border-left: 3px solid grey;
+    padding-left: 2vw;
+}
+
+#infoAutora {
+    display: flex;
+    top: -100vh;
+}
+
+#infoContato {
+    display: flex;
+    top: -100vh;
+}
+
+#infoComprar {
+    display: flex;
+    top: -100vh;
+}
+
+.voltar {
+    position: absolute;
+    top: 10.4%;
+    left: 13%;
+    font-size: 3vh;
+    z-index: 5;
+}
+.voltar:hover {
+    color: darkslategrey
+}
+.voltar:active {
+    font-size: 2.7vh;
+}
+
+#aspa {
+    left: -3%;
+    top: -25%;
+    font-size: 7vmax;
+    position: absolute;
+}
+
+#gridC {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 80%;
+    top: 6.3vmin;
+    align-self: center;
+    margin-left: 5vw;
+}
+
+#titulo {
+    font-size: 9vw;
+    font-family: 'Bebas Neue', cursive;
+    margin: -3.5vmin;
+    margin-left: 3.4vw;
+}
+
+#txt1 {
+    font-size: 2vw;
+    margin-top: 5vmin;
+}
+
+#subt {
+    font-size: 3vw;
+}
+
+#btn-box {
+    position: relative;
+    height: 54vh;
+    width: 10vw;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chains {
+    position: absolute;
+    width: auto;
+    height: 109%;
+}
+.btntxt {
+    position: absolute;
+    text-align: center;
+    font-size: 2.3vmin;
+    justify-self: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 10%;
+    color:rgba(20, 20, 20, 0.603);
+    user-select: none;
+}
+
+.btnbox {
+    position: relative;
+    height: 20vmin;
+    width: 20vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vmin;
+}
+
+/* ANIMAÇAO ROTACAO */
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .btnativo {
+    -webkit-animation: rotating 5s linear infinite;
+    -moz-animation: rotating 5s linear infinite;
+    -ms-animation: rotating 5s linear infinite;
+    -o-animation: rotating 5s linear infinite;
+    animation: rotating 5s linear infinite;
+    width: auto;
+    height: 100%;
+    transition: all 50ms linear;
+  }
+
+
+  .rodar {
+    -webkit-animation: rotating 100s linear infinite;
+    -moz-animation: rotating 100s linear infinite;
+    -ms-animation: rotating 100s linear infinite;
+    -o-animation: rotating 100s linear infinite;
+    animation: rotating 100s linear infinite;
+  }
+  .btnbox:hover .chains {
+    -webkit-animation: rotating 3.5s linear infinite;
+    -moz-animation: rotating 3.5s linear infinite;
+    -ms-animation: rotating 3.5s linear infinite;
+    -o-animation: rotating 3.5s linear infinite;
+    animation: rotating 3.5s linear infinite;
+    width: auto;
+    height: 116%;
+    transition: all 150ms linear;
+  }
+
+  .btnbox:active .chains {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+    width: auto;
+    height: 100%;
+    transition: all 50ms linear;
+  }
+
+  #mailBtnBox {
+      display: none;
+  }
+
+
+/* VERTICAL */
+
+@media (orientation: portrait) 
+{
+    body {
+        display: flex;
+        overflow-y: scroll;
+        cursor: auto;
+    }
+    #estrela {
+        display: none;
+    }
+    #credito {
+        display: hidden;
+    }
+    .btntxt {
+        display: none;
+    }
+    #mklivro {
+        width: 38vh;
+        position: fixed;
+        top: 50vh;
+        left: 5vw;
+    }
+    .chains {
+        display: none;
+    }
+    .estrela {
+        display: none;
+    }
+    #titulo {
+        font-size: 20vw;
+        margin-left: 6vw;
+    }
+    #gridC {
+        margin: 0;
+    }
+    #txt1 {
+        font-size: 7vw;
+        margin-left: 6vw;
+    }
+    #txt-box {
+        margin-top: 8%
+    }
+    #subt {
+        font-size: 6vw;
+        margin-left: 6vw;
+        
+    }
+    #sinopse {
+        display: none;
+    }
+    #infoSobre {
+        margin-top: 28vh;
+    }
+    .infos {
+        width: auto;
+        font-size: 4vw;
+        position: fixed;
+        width: 90vw;
+        margin-left: 30vw;
+        
+    }
+    #aspa {
+        display: none;
+    }
+    #btn-box {
+        position: absolute;
+        height: 20vh;
+        width: 100vw;
+        margin-left: 16vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        top: 25vh;
+    }
+    .mybtn {
+        margin: 13vw;
+    }
+    .btntxt {
+        font-size: 4.2vmin;
+    }
+
+    #mailBtnBox {
+        background-color: red;
+        width: 25vw;
+        height: 25vw;
+        position: fixed;
+        top: 81vh;
+        left: 67vw;
+        border-radius: 100%;
+        -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 17px 25px 37px 13px rgba(0,0,0,0.1); 
+        box-shadow: 2px 5px 16px 0px #0B325E, 17px 25px 37px 13px rgba(0,0,0,0.1);
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 7;
+
+    }
+    #mailBtnBox:active {
+        -webkit-animation: scale-down-center 0.3s linear;
+        animation: scale-down-center 0.3s linear;
+    }
+    #mailIco {
+        
+        position: relative;
+        z-index: 7;
+        color: whitesmoke;
+    }
+
+    @keyframes scale-down-center {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+        50% {
+          -webkit-transform: scale(0.8);
+                  transform: scale(0.8);
+        }
+        100%{
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+        }
+
+}
