@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="language" content="pt-BR">
+        <title>NINFOMANÍACA</title>
+        <link rel="icon" type="image/x-icon" href="cursor.png">
+        <meta name="description" content="Livro sobre sexualidade da jornalista e autora Alessandra Linck que busca explorar a temática BDSM e ninfomaníaca.">
+        <meta name="robots" content="all">
+        <meta name="author" content="Gustavo Poester">
+        <meta name="keywords" content="sexo, BDSM, ninfomania, relatos">
+
+        <meta property="og:type" content="page">
+        <meta property="og:url" content="">
+        <meta property="og:title" content="">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
+
+        <meta property="article:author" content="">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:creator" content="@">
+        <meta name="twitter:description" content="">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!--folha de estilo-->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+                <div>
+                    <p id="credito" class="showRight">página criada por gupoester@gmail.com</p>
+                    <figure>
+                        <img id="mklivro" src="mockuplivro2.png" alt="mockup livro NINFOMANIACA FANTASIA OU REALIDADE?">
+                        <img id="estrela" class="rodar showRight" src="estrela.svg" alt="estrela de desconto">
+                    </figure>
+
+                    <div id="infoSobre" class="boxInfos tela">
+                        <p class="showTop infos"><span id="aspa" class="show">"</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum libero erat, non elementum mauris ullamcorper ut. Sed ornare massa aliquet tortor commodo, ac commodo nibh viverra."</p>
+                    </div>
+
+                    <div id="infoComprar" class="boxInfos">
+                        <h4 class="voltar" onclick="voltar()">X</h4>
+                        <p id="comprar" class="infos">EM CONSTRUÇÃO.</p>
+                    </div>
+
+                    <div id="infoContato" class="boxInfos">
+                        <h4 class="voltar" onclick="voltar()">X</h4>
+                        <p id="contato" class="infos">EM CONSTRUÇÃO.</p>
+                    </div>
+                    
+                    <div id="infoAutora" class="boxInfos">
+                        <h4 class="voltar" onclick="voltar()">X</h4>
+                        <p id="autora" class="infos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum libero erat, non elementum mauris ullamcorper ut. Sed ornare massa aliquet tortor commodo, ac commodo nibh viverra."</p>
+                        <figure>
+                            <img id="perfil" src="perfil.jpg" alt="Alessandra Linck">
+                        </figure>
+                    </div>
+
+                </div>
+            <div id="gridC" class="row no-gutters">
+                <div id="btn-box" class="show">
+                    
+                    <figure id="btnbox1" class="btnbox" onclick="acaoComprar()">
+                        <img id="btnComprar" class="chains rodar" src="corrbtn.svg" alt="correntes">
+                        <p id="txt-livro" class="btntxt"><b>ONDE<br> COMPRAR?</b></p>
+                    </figure>
+                    
+                    <figure id="btnbox2" class="btnbox" onclick="acaoAutora()">
+                        <img id="btnAutora" class="chains rodar" src="corrbtn.svg" alt="correntes">
+                        <p id="txt-autora" class="btntxt"><b>A AUTORA</b></p>
+                    </figure>
+
+                    <figure id="btnbox3" class="btnbox" onclick="acaoContato()">
+                        <img id="btnComprar" class="chains rodar" src="corrbtn.svg" alt="correntes">
+                        <p id="txt-comprar" class="btntxt"><b>CONTATO</b></p>
+                    </figure>
+                
+                    
+                </div>
+                <div id=txt-box class="show">
+                    <h3 id="txt1" class="txt show">Os relatos de uma</h1> 
+                    <h1 id="titulo" class="show">NINFOMANÍACA</h1>
+                    <h2 id="subt" class="txt show"><i>fantasia ou realidade?</i></h2>
+                </div>
+            </div>
+            <div id="mailBtnBox"><a href="mailto:gupoester@gmail.com"><svg id="mailIco" xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg></a></div>        
+        </div>
+
+        <!-- SCRIPT-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="index.js"></script>
+        <script>
+        gsap.from('#mklivro', {duration: 0.8, scale: 500})
+        gsap.from('.show', {delay: 1.2, duration: 0.8, opacity: 0, left: -400})
+        gsap.from('.showRight', {delay: 1.7, duration: 0.8, opacity: 0})
+        gsap.from('.showTop', {delay: 1.5, duration: 0.8, opacity: 0, top: -500})
+        </script>
+    </body>
+</html>
