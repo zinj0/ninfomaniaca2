@@ -1,7 +1,10 @@
 * {
-    cursor: url('cursor.png'), auto;}
+    cursor: url('cursor.png'), auto;
+}
+
 *:active {
-    cursor: url('cursor2.png),auto;}
+    cursor: url('cursor2.png),auto;
+        }
 
 body {
     overflow-y: hidden;
