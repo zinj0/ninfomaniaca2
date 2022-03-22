@@ -176,12 +176,12 @@ h1, h3, h2 {
 .btntxt {
     position: absolute;
     text-align: center;
-    font-size: 1.4vw;
+    font-size: 0.9vw;
     justify-self: center;
     align-self: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    margin-top: 9%;
+    margin-top: 20%;
     color:rgba(20, 20, 20, 0.603);
     user-select: none;
 }
