@@ -176,7 +176,7 @@ h1, h3, h2 {
 .btntxt {
     position: absolute;
     text-align: center;
-    font-size: 5%;
+    font-size: 20%;
     justify-self: center;
     align-self: center;
     font-family: 'Poppins', sans-serif;
