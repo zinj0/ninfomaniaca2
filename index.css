@@ -1,11 +1,12 @@
+* {
+    cursor: url('cursor.png'), auto;}
+*:active {
+    cursor: url('cursor2.png),auto;}
+
 body {
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: rgba(223, 217, 192, 0.603);
-    cursor: url('cursor.png'), auto;
-}
-body:active {
-    cursor: url('cursor2.png'), auto;
 }
 
 #estrela {
